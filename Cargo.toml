@@ -1,0 +1,7 @@
+[package]
+name = "batgrep"
+version = "0.1.0"
+authors = ["Ben Fersenheim <ben@bu.edu>"]
+edition = "2018"
+
+[dependencies]
