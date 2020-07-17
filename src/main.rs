@@ -23,7 +23,7 @@ fn run_bat(filepath: String, center: usize) -> Result<(), Box<dyn Error>> {
     let range_arg = format!("--line-range={}:{}", first, last);
     let highlight_arg = format!("--highlight-line={}", center);
 
-    let output = Command::new("bat.exe")
+    let output = Command::new("bat")
         .arg("--style=numbers")
         .arg("--color=always")
         .arg("--pager=never")
