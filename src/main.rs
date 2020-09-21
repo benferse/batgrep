@@ -13,7 +13,7 @@ fn run_bat(filepath: String, center: usize) -> Result<(), Box<dyn Error>> {
     let first: usize = match center.checked_sub(lines / 3) {
         Some(u) => u,
         None    => 1,
-        };
+    };
 
     let last: usize = match first.checked_add(lines - 1) {
         Some(u) => u,
