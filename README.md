@@ -9,4 +9,4 @@ can be compiled.
 
 ## License
 
-`SPDX-License-Identifier: MIT`
+MIT
